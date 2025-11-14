@@ -7,7 +7,11 @@ import TheFirstQuestion from "../components/TheFirstQuestion.vue";
     <form>
       <h1 class="text-4xl font-bold mb-6">O pior formulario da historia</h1>
 
-      <TheFirstQuestion />
+      <div
+        class="flex min-h-[320px] items-center justify-center bg-slate-950 py-12"
+      >
+        <TheFirstQuestion />
+      </div>
     </form>
   </div>
 </template>
